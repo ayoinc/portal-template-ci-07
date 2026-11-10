@@ -1,0 +1,13 @@
+{
+  "dashboard_title": "sample-sales-dashboard",
+  "description": "Sales performance dashboard for the commercial team",
+  "slug": "sample-sales-dashboard",
+  "position_json": {},
+  "metadata": {
+    "owner": "group:default/platform-team",
+    "environment": "development",
+    "data_source": "postgresql",
+    "version": "1.0.0"
+  },
+  "charts": ["Example Chart"]
+}

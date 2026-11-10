@@ -1,0 +1,13 @@
+site_name: sample-sales-dashboard
+site_description: "Sales performance dashboard for the commercial team"
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-sales-dashboard
+  description: "Sales performance dashboard for the commercial team"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: example-org/sample-sales-dashboard
+  tags:
+    - data
+    - superset
+    - dashboard
+    - analytics
+  links:
+    - url: https://superset.apache.org/docs/intro
+      title: Apache Superset Documentation
+      icon: docs
+spec:
+  type: service
+  lifecycle: development
+  owner: group:default/platform-team
+  system: data-platform

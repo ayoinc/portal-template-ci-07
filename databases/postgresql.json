@@ -1,0 +1,15 @@
+{
+  "database_name": "sample-sales-dashboard_development",
+  "engine": "postgresql",
+  "sqlalchemy_uri": "",
+  "extra": {
+    "metadata_params": {},
+    "engine_params": {},
+    "metadata_cache_timeout": {},
+    "schemas_allowed_for_csv_upload": []
+  },
+  "expose_in_sqllab": true,
+  "allow_ctas": false,
+  "allow_cvas": false,
+  "allow_dml": false
+}
