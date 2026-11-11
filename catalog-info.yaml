@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-golden-image
+  description: "The platform team's \"golden\" image: hardened Ubuntu base"
+  annotations:
+    github.com/project-slug: example-org/sample-golden-image
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - packer
+    - aws
+spec:
+  type: resource
+  lifecycle: production
+  owner: group:default/platform-team

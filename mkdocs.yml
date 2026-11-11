@@ -1,0 +1,8 @@
+site_name: "sample-golden-image"
+site_description: "The platform team's \"golden\" image: hardened Ubuntu base"
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
